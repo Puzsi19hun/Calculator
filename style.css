@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+.buttons div{
+    height:100px ;
+    
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#nine, #eight, #seven{
+    flex: 1 0 30%;
+}
+#six, #five, #four{
+    flex: 1 0 30%;
+}
+#three, #two, #one{
+    flex: 1 0 30%;
+}
+#zero{
+    flex: 1 0 30%;
+}
+
